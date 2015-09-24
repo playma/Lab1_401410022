@@ -24,12 +24,12 @@ print(Tarsus_min)
 print(Tarsus_max)
 
 #Head
-Head <-  c(31.5,30.4,30.6,30.3,30.3,30.8,32.5,NA)
+Head <-  c(31.2,30.4,30.6,30.3,30.3,30.8,32.5,NA)
 
-Head_mean <- mean(Head)
-Head_median <- median(Head)
-Head_min <- min(Head)
-Head_max <- max(Head)
+Head_mean <- mean(Head,na.rm=TRUE)
+Head_median <- median(Head,na.rm=TRUE)
+Head_min <- min(Head,na.rm=TRUE)
+Head_max <- max(Head,na.rm=TRUE)
 
 print(Head_mean)
 print(Head_median)
