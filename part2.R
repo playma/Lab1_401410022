@@ -1,6 +1,11 @@
-sum(1:100*1:100)
+answer <- sum(1:100*1:100)
+n <- 1:100
+n*n
+sum(n*n)
+print(answer)
 
-?iris
+?iris #dataset
+?InsectSprays
 ?seq
 ?mean
 ?stats
